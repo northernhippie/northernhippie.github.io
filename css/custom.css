@@ -1,0 +1,225 @@
+/* Set Image Size */
+.mainImage {
+    max-height: 500px;
+}
+.textGroup {
+    margin: 0px 0px 0px 50px;
+}
+.jumboFontHeader {
+    color: rgba(0, 0, 0, 0.0);
+    font-size: 13vw;
+    font-weight: 300;
+    /* padding: 0px 0px 0px 50px; */
+}
+.jumboFontSubHeader {
+    font-size: 2vw;
+    /* padding: 0px 0px 0px 52px; */
+}
+.thumbnailImage {
+    max-width: 100%;
+    max-height: 100%;
+}
+.bottomImage {
+    padding-bottom: 50px;
+}
+/*li > a {
+    border: none;
+}*/
+a, img, a:visited, a:focus, a:active, a:hover{
+    outline:0 none !important;
+}
+/* html {
+    font-family: 'Didact Gothic', sans-serif;
+} */
+.navbar {
+    border: 0px;
+}
+.nav li {
+    display:table-cell !important;
+}
+.navbar-nav {
+    margin: 0px 0px;
+}
+.footerCopyright {
+    padding: 21px 1px 8px 1px;
+    /*max-width: 150px;*/
+}
+.footerCopyrightText {
+    font-family: sans-serif;
+    font-size: 1.1vw;
+}
+/* .navMiddle {
+    vertical-align: middle;
+} */
+@media (max-width: 767px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin: -22px 0px -22px 0px;
+    }
+}
+
+@media (min-width: 0px) {
+    .navbar-left {
+        float: left !important;
+    }
+    .navbar-right {
+        float: right !important;
+        margin: 6px 1px 3px 0px;
+        min-height: 50px;
+    }
+    .navbar-right ~ .navbar-right {
+        margin: 6px 1px 6px 0px;
+        min-height: 50px;
+    }
+}
+/*@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0px;
+    }
+}
+@media (min-width: 0px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 2px;
+        margin-right: 5px;
+    }
+}
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 2px;
+        margin-right: 5px;
+    }
+} */
+.navbar-brand {
+  float: left;
+  /*height: 50px;*/
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbarLogo {
+    /*max-width: 100%;*/
+    max-height: 30px;
+}
+.navbarLogoSpacing {
+    padding: 10px 10px 35px 20px;
+}
+.navbar-inverse .navbar-text {
+    color: #000000;
+}
+.navbar-inverse .navbar-brand {
+    color: #000000;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #000000;
+}
+/* Navbar Drop Shadow */
+.navbarDropShadow {
+    -webkit-box-shadow: 20px 10px 0px 0px rgba(0,0,0,0.42);
+    -moz-box-shadow: 20px 10px 0px 0px rgba(0,0,0,0.42);
+    box-shadow: 20px 10px 0px 0px rgba(0,0,0,0.42);
+}
+.jumbotron {
+    padding-top: 40px; /* change back to 70px for navbar, 40 without */
+    padding-bottom: 40px;
+    margin-bottom: 0px;
+    background-color: inherit;
+}
+.jumbotronInnerShadow {
+    box-shadow: inset 0px 0px 15px 9px rgba(147, 147, 147, 0.14);
+    -moz-box-shadow: inset 0px 0px 15px 9px rgba(147, 147, 147, 0.14);
+    -webkit-box-shadow: inset 0px 0px 15px 9px rgba(147, 147, 147, 0.14);
+}
+
+/* Modal Images */
+.modal-footer {
+    min-height:150px;
+}
+#image-gallery-link {
+    clear:both;
+    width:100%;
+    text-align:center;
+    padding:0px;
+    margin:0px;
+}
+#image-gallery-caption {
+    text-align:center;
+    max-width:70%;
+    margin:auto;
+}
+.thumbnail {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/*.thumbnail:hover .bounce{
+
+}*/
+.navbarBackground {
+    background: linear-gradient(310deg, #bbf05c, #bbf05c, #9be565, #00cba5, #00c08b, #00c08b);
+    background-size: 1200% 1200%;
+    -webkit-animation: NavbarBackground 50s ease infinite;
+    -moz-animation: NavbarBackground 50s ease infinite;
+    -o-animation: NavbarBackground 50s ease infinite;
+    animation: NavbarBackground 50s ease infinite;
+}
+@-webkit-keyframes NavbarBackground {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@-moz-keyframes NavbarBackground {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@-o-keyframes NavbarBackground {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+@keyframes NavbarBackground {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+
+.gradientBackground {
+    background: linear-gradient(126deg, #ff4b4b, #ff4b4b, #ffa231, #f2fa23, #70ff71, #71fffc, #6780f8, #fe54f5, #fe5456, #fe5456);
+    background-size: 2000% 2000%;
+    -webkit-animation: GradientBackground 180s ease infinite;
+    -moz-animation: GradientBackground 180s ease infinite;
+    -o-animation: GradientBackground 180s ease infinite;
+    animation: GradientBackground 180s ease infinite;
+}
+@-webkit-keyframes GradientBackground {
+    0%{background-position:0% 70%}
+    50%{background-position:100% 31%}
+    100%{background-position:0% 70%}
+}
+@-moz-keyframes GradientBackground {
+    0%{background-position:0% 70%}
+    50%{background-position:100% 31%}
+    100%{background-position:0% 70%}
+}
+@-o-keyframes GradientBackground {
+    0%{background-position:0% 70%}
+    50%{background-position:100% 31%}
+    100%{background-position:0% 70%}
+}
+@keyframes GradientBackground {
+    0%{background-position:0% 70%}
+    50%{background-position:100% 31%}
+    100%{background-position:0% 70%}
+}
+.fontColor {
+    color: #000000;
+}
+
+/* Preferable Font */
+/* font-family: 'Didact Gothic', sans-serif; */
