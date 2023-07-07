@@ -5,6 +5,10 @@
 .textGroup {
     margin: 0px 0px 0px 50px;
 }
+/* Fonts */
+.caprasimoFont {
+    font-family: Caprasimo;
+}
 .jumboFontHeader {
     color: rgba(0, 0, 0, 0.0);
     font-size: 13vw;
